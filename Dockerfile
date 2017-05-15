@@ -24,17 +24,13 @@ WORKDIR /generated
 
 # Always run as the yeoman user
 USER yeoman
-ENV GENERATOR="default"
 
 COPY root /
 
 ENTRYPOINT ["/opt/bin/entrypoint.sh"]
-CMD ["$GENERATOR"]
 
 # Run a Yeoman generator with a command such as:
-# docker build -t yeoman .
-# docker run -it -v "/Users/username/Projects/newproject:/generated" --rm yeoman yo gadget --no-insight --skip-install
+# docker build -t GENERATOR .
+# docker run -it -v "/Users/username/Projects/newproject:/generated" --rm GENERATOR
 
-# The --no-insight flag is recommended to avoid prompts for usage collection.
-# @see https://github.com/yeoman/yo/issues/20
 
