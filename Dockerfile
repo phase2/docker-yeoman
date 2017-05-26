@@ -1,7 +1,7 @@
 FROM node:6-alpine
 
 RUN apk update && apk upgrade && \
-    apk add --no-cache bash git openssh
+    apk add --no-cache bash git openssh curl
 
 RUN node -v
 RUN npm -v
