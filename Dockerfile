@@ -6,7 +6,7 @@ RUN apk update && apk upgrade && \
 RUN node -v
 RUN npm -v
 RUN echo "Yeoman Doctor will warn about our npm version being outdated. It is expected and OK."
-RUN npm install --global --silent yo node-inspector
+RUN npm install --global --silent yo
 
 # Add a yeoman user because Yeoman freaks out and runs setuid(501).
 # This was because less technical people would run Yeoman as root and cause problems.
