@@ -1,4 +1,5 @@
 FROM node:6-alpine
+LABEL maintainer "Phase2 <outrigger@phase2technology.com>"
 
 RUN apk update && apk upgrade && \
     apk add --no-cache bash git openssh curl
