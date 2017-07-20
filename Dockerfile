@@ -3,7 +3,7 @@ FROM node:6-alpine
 RUN apk update && apk upgrade && \
     apk add --no-cache bash git openssh curl
 
-RUN echo "Node: " && node -v && echo "npm: " && npm -v
+RUN echo -n "Node: " && node -v && echo -n "npm: " && npm -v
 RUN echo "Yeoman Doctor will warn about our npm version being outdated. It is expected and OK."
 RUN npm install --global --silent yo node-inspector
 
