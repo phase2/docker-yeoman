@@ -1,7 +1,7 @@
 FROM node:6-alpine
 
 # @see http://label-schema.org/rc1/
-LABEL maintainer "Phase2 <outrigger@phase2technology.com>"
+LABEL maintainer "Phase2 <outrigger@phase2technology.com>" \
   # Replacement for the old MAINTAINER directive has fragmented.
   # "vendor" prevents CentOS from leaking through, the other is for tools integrations.
   vendor="Phase2 <outrigger@phase2technology.com>" \
