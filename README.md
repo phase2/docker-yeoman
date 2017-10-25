@@ -2,7 +2,7 @@
 
 > Facilitates execution of Yeoman generators via a container.
 
-[![GitHub tag](https://img.shields.io/github/tag/phase2/docker-yeoman.svg)](https://github.com/phase2/docker-yeoman)[![Docker Stars](https://img.shields.io/docker/stars/outrigger/yeoman.svg)](https://hub.docker.com/r/outrigger/yeoman)[![Docker Pulls](https://img.shields.io/docker/pulls/outrigger/yeoman.svg)](https://hub.docker.com/r/outrigger/yeoman)[![](https://images.microbadger.com/badges/image/outrigger/yeoman:latest.svg)](https://microbadger.com/images/outrigger/yeoman:latest "Get your own image badge on microbadger.com")
+[![GitHub tag](https://img.shields.io/github/tag/phase2/docker-yeoman.svg)](https://github.com/phase2/docker-yeoman) [![Docker Stars](https://img.shields.io/docker/stars/outrigger/yeoman.svg)](https://hub.docker.com/r/outrigger/yeoman) [![Docker Pulls](https://img.shields.io/docker/pulls/outrigger/yeoman.svg)](https://hub.docker.com/r/outrigger/yeoman) [![MicroBadger](https://images.microbadger.com/badges/image/outrigger/yeoman:latest.svg)](https://microbadger.com/images/outrigger/yeoman:latest "Get your own image badge on microbadger.com")
 
 This image provides some special handling to ensure Yeoman generators can be
 executed inside a container, and an entrypoint that facilitates execution of the
